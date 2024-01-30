@@ -13,3 +13,7 @@ class Vector:
 
   def __abs__(self):
     return math.hypot(self.x,self.y)
+
+v1 = Vector(1,2)
+v1
+bool(v1)
